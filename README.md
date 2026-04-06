@@ -64,6 +64,31 @@ The system follows a financial analytics workflow:
 - Responsible use of business data  
 - Transparency in analytics  
 
+
 ---
+
+## Key Learnings
+- Financial data analysis  
+- KPI tracking  
+- Business intelligence reporting  
+- Data visualisation  
+
+---
+
+## Future Improvements
+- Predictive financial modelling  
+- Integration with real-time data  
+- Advanced analytics  
+
+---
+
+## Author
+Anne Subashini Sritharan  
+
+---
+
+## Project Note
+This project demonstrates how financial data can be transformed into actionable insights using Power BI.
+
 
 ## Project Structure
