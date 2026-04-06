@@ -1,45 +1,69 @@
 # Financial-performance-dashboard-powerbi
 Developed a Power BI dashboard to analyse financial performance, including budget vs actual comparison, cost analysis, and KPI tracking. Enabled data-driven decision-making by identifying variance and performance trends.
 
- Overview
+# Financial Performance Dashboard
 
-This project presents an interactive Power BI dashboard developed to analyse financial performance. The dashboard provides insights into revenue, cost, profit, and budget variance to support business decision-making.
+## Project Overview
+This project presents a financial performance dashboard developed using Power BI to analyse revenue, cost, profit, and budget variance. It supports business decision-making through data-driven insights.
 
- Objectives
-Analyse revenue and cost trends over time
-Compare budget vs actual performance
-Identify high-performing and underperforming areas
-Support financial planning and decision-making
+---
 
-Tools & Technologies
-Microsoft Power BI
-Microsoft Excel
-SQL (concepts for data extraction)
+## Objectives
+- Analyse revenue and cost trends  
+- Compare budget vs actual performance  
+- Identify profit patterns  
+- Support financial decision-making  
 
-Dataset
-Source: Kaggle – Financial / Sales Dataset
-Includes revenue, cost, profit, and time-based business data
+---
 
-Key Features
-KPI cards showing total revenue, total cost, and profit
-Budget vs Actual comparison
-Monthly revenue and cost trends
-Profit analysis by category or department
-Interactive filters for dynamic reporting
+## System Architecture
+The system follows a financial analytics workflow:
 
-Dashboard Preview
+- **Data Collection Layer** – financial dataset  
+- **Data Processing Layer** – cleaning and transformation  
+- **Analysis Layer** – KPI and variance analysis  
+- **Visualisation Layer** – Power BI dashboards  
 
+---
 
-Key Insights
-Identified periods of high and low profitability
-Highlighted areas with cost overruns
-Provided visibility into financial performance trends
-Supported data-driven business decisions
+## Key Features
+- Revenue, cost, and profit analysis  
+- Budget vs actual comparison  
+- KPI performance indicators  
+- Monthly financial trends  
+- Interactive dashboards  
 
-Files Included
-Power BI Dashboard (.pbix)
-Dataset file (.csv / .xlsx)
+---
 
-💡 Conclusion
+## Technologies Used
+- **Microsoft Power BI**  
+- **Microsoft Excel**  
+- **SQL (Concepts)**  
 
-This project demonstrates how financial data can be analysed and visualised using Power BI to support business performance monitoring and strategic decision-making.
+---
+
+## Data Pipeline Workflow
+1. Data Collection  
+2. Data Cleaning  
+3. Financial KPI calculation  
+4. Data Modelling  
+5. Dashboard Visualisation  
+
+---
+
+## Use Cases
+- Business performance analysis  
+- Financial reporting  
+- Budget planning  
+- Corporate dashboards  
+
+---
+
+## Ethical Considerations
+- Accuracy in financial reporting  
+- Responsible use of business data  
+- Transparency in analytics  
+
+---
+
+## Project Structure
