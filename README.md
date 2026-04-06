@@ -1,42 +1,42 @@
 # Financial-performance-dashboard-powerbi
 Developed a Power BI dashboard to analyse financial performance, including budget vs actual comparison, cost analysis, and KPI tracking. Enabled data-driven decision-making by identifying variance and performance trends.
 
-📊 Overview
+ Overview
 
 This project presents an interactive Power BI dashboard developed to analyse financial performance. The dashboard provides insights into revenue, cost, profit, and budget variance to support business decision-making.
 
-🎯 Objectives
+ Objectives
 Analyse revenue and cost trends over time
 Compare budget vs actual performance
 Identify high-performing and underperforming areas
 Support financial planning and decision-making
 
-🛠️ Tools & Technologies
+Tools & Technologies
 Microsoft Power BI
 Microsoft Excel
 SQL (concepts for data extraction)
 
-📂 Dataset
+Dataset
 Source: Kaggle – Financial / Sales Dataset
 Includes revenue, cost, profit, and time-based business data
 
-📈 Key Features
+Key Features
 KPI cards showing total revenue, total cost, and profit
 Budget vs Actual comparison
 Monthly revenue and cost trends
 Profit analysis by category or department
 Interactive filters for dynamic reporting
 
-📷 Dashboard Preview
+Dashboard Preview
 
 
-🚀 Key Insights
+Key Insights
 Identified periods of high and low profitability
 Highlighted areas with cost overruns
 Provided visibility into financial performance trends
 Supported data-driven business decisions
 
-📁 Files Included
+Files Included
 Power BI Dashboard (.pbix)
 Dataset file (.csv / .xlsx)
 
