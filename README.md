@@ -1,94 +1,76 @@
-# Financial-performance-dashboard-powerbi
-Developed a Power BI dashboard to analyse financial performance, including budget vs actual comparison, cost analysis, and KPI tracking. Enabled data-driven decision-making by identifying variance and performance trends.
+# Financial Performance Dashboard — Sales Analysis
 
-# Financial Performance Dashboard
+Power BI dashboard analysing 9,800 sales orders (2015–2018) across regions, segments, and product categories, turning raw sales data into executive-ready revenue insights.
 
 ## Project Overview
-This project presents a financial performance dashboard developed using Power BI to analyse revenue, cost, profit, and budget variance. It supports business decision-making through data-driven insights.
 
----
+This project analyses a retail sales dataset (Superstore) covering order dates, customer segments, regions, and product categories. The goal is to give decision-makers a clear view of revenue trends, top-performing regions and categories, and seasonal patterns.
 
 ## Objectives
-- Analyse revenue and cost trends  
-- Compare budget vs actual performance  
-- Identify profit patterns  
-- Support financial decision-making  
 
----
+- Track total revenue, order volume, and average order value at a glance
+- Analyse monthly and yearly revenue trends
+- Compare performance across regions, segments, and product categories
+- Identify top revenue-driving products and sub-categories
 
 ## System Architecture
-The system follows a financial analytics workflow:
 
-- **Data Collection Layer** – financial dataset  
-- **Data Processing Layer** – cleaning and transformation  
-- **Analysis Layer** – KPI and variance analysis  
-- **Visualisation Layer** – Power BI dashboards  
-
----
+- **Data Collection Layer** — retail sales dataset (9,800 orders, 2015–2018)
+- **Data Processing Layer** — Power Query date parsing and type validation
+- **Analysis Layer** — DAX measures for revenue KPIs and time intelligence
+- **Visualisation Layer** — Power BI dashboard (2 pages)
 
 ## Key Features
-- Revenue, cost, and profit analysis  
-- Budget vs actual comparison  
-- KPI performance indicators  
-- Monthly financial trends  
-- Interactive dashboards  
 
----
+- KPI cards: total revenue, total orders, average order value, top region
+- Monthly revenue trend line chart with year-over-year view
+- Revenue by region and segment breakdowns
+- Category and sub-category revenue ranking
+- Interactive slicers for year, region, and segment
 
 ## Technologies Used
-- **Microsoft Power BI**  
-- **Microsoft Excel**  
-- **SQL (Concepts)**  
 
----
+- Microsoft Power BI (Power Query, DAX)
 
 ## Data Pipeline Workflow
-1. Data Collection  
-2. Data Cleaning  
-3. Financial KPI calculation  
-4. Data Modelling  
-5. Dashboard Visualisation  
 
----
+1. Data import (retail sales dataset)
+2. Date parsing and data type validation in Power Query
+3. DAX measure creation (revenue KPIs, time aggregations)
+4. Dashboard visualisation across 2 pages
 
 ## Use Cases
-- Business performance analysis  
-- Financial reporting  
-- Budget planning  
-- Corporate dashboards  
 
----
+- Sales performance monitoring
+- Regional and segment revenue comparison
+- Product category analysis
+- Business performance reporting
 
-## Ethical Considerations
-- Accuracy in financial reporting  
-- Responsible use of business data  
-- Transparency in analytics  
+## Data Limitations
 
+This dataset contains sales revenue only — it does not include cost, profit margin, or budget figures, so budget-vs-actual and profitability analysis are out of scope. A future version could incorporate cost data for full financial variance analysis.
 
----
+## Screenshots
+
+![Overview Page](screenshots/overview.png)
+![Category Analysis Page](screenshots/category_analysis.png)
 
 ## Key Learnings
-- Financial data analysis  
-- KPI tracking  
-- Business intelligence reporting  
-- Data visualisation  
 
----
+- Time intelligence in Power BI (monthly/yearly trend aggregation from transaction dates)
+- DAX measure design for sales KPIs (DISTINCTCOUNT, AVERAGEX patterns)
+- Multi-level category analysis and ranking visuals
 
 ## Future Improvements
-- Predictive financial modelling  
-- Integration with real-time data  
-- Advanced analytics  
 
----
+- Add cost and profit data for true financial variance analysis
+- Add customer-level analysis (repeat purchase, top customers)
+- Add forecasting for revenue projection
 
 ## Author
-Anne Subashini Sritharan  
 
----
+Anne Subashini Sritharan
 
 ## Project Note
-This project demonstrates how financial data can be transformed into actionable insights using Power BI.
 
-
-## Project Structure
+This project demonstrates how Power BI can turn transactional sales data into clear revenue insights that support business decision-making.
